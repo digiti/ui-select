@@ -273,8 +273,8 @@ uis.directive('uiSelect',
           offset = offset || uisOffset(element);
           offsetDropdown = offsetDropdown || uisOffset(dropdown);
 
-          dropdown[0].style.position = 'absolute';
-          dropdown[0].style.top = (offsetDropdown.height * -1) + 'px';
+          //dropdown[0].style.position = 'absolute';
+          //dropdown[0].style.top = (offsetDropdown.height * -1) + 'px';
           element.addClass(directionUpClassName);
 
         };
